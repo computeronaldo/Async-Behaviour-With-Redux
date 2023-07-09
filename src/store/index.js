@@ -5,7 +5,7 @@ import uiSlice from "./ui-slice";
 const store = configureStore({
   reducer: {
     cart: cartSlice,
-    toggleCart: uiSlice,
+    ui: uiSlice,
   },
 });
 
